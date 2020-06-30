@@ -217,148 +217,26 @@ body {
       #000000
     );
   }
-  
   .container {
-    padding-top: 500px;
+      padding-top: 300px;
   }
-  .popular {
-    position: relative;
-    color: rgb(250, 250, 250);
-    bottom: 250px;
-    left: 50px;
-    font-family: "Comfortaa";
-    font-size: 20px;
-  }
-  
-  /* Card */
-  .wrap {
-    position: relative;
-    bottom: 270px;
-    border-top: 2px solid #24ff00;
-    border-bottom: 2px solid #24ff00;
-  }
-  .card {
-    line-height: normal;
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px;
-    position: relative;
-    left: 130px;
-    width: 250px;
-    height: 350px;
-    border: 2px solid #24ff00;
-    perspective: 1000px;
-  }
-  .front,
-  .back {
-    display: flex;
-    justify-content: center;
-    vertical-align: top;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    transition: 1s;
-    backface-visibility: hidden;
-  }
-  .front {
-    float: right;
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    color: #24ff00;
-    background-color: black;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 100px;
-  }
-  .front span {
-    display: inline;
-    position: relative;
-    top: 10px;
-  }
-  .back {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    color: #24ff00;
-    background-color: black;
-    transform: rotateY(180deg);
-  }
-  .back span {
-    position: relative;
-    top: 10px;
-  }
-  .card:hover .front {
-    transform: rotateY(180deg);
-  }
-  .card:hover .back {
-    transform: rotateY(360deg);
-  }
-  /* Card */
-  .company {
-    text-align: center;
-    width: 100%;
-    color: rgb(250, 250, 250);
-    font-family: "Comfortaa";
-  }
-  .company h2 {
-    position: relative;
-    text-align: left;
-    left: 50px;
-    top: 30px;
-  }
-  .company a{
-    color: rgb(250, 250, 250);
-    text-decoration: none;
-    outline: none;
-  }
-  .company a:hover {
-    color: #24ff00;
-  }
-  .company p {
-    font-family: "Sansita" ;
-    font-size: 25px;
-    border-bottom: 2px solid #24ff00;
-    border-top: 2px solid #24ff00;;
-    padding: 100px;
-    margin-bottom: 100px;
-  }
-  .why {
-    text-align: center;
-    color: rgb(250, 250, 250);
-    font-family: "Comfortaa";
-    width: 100%;
-    border-bottom: 2px solid #24ff00;
-   
-  }
-  .why h2 {
-    position: relative;
-    text-align: left;
-    border-bottom: 2px solid #24ff00;;
-  }
-  .why p {
-    font-family: "Sansita" ;
-    font-size: 25px;
-  }
-  .why span {
-    color: #24ff00;
-    font-family: "Lobster" ;
-    border: 1px solid #24ff00;
-    border-radius: 70px;
-    padding: 5px;
-  }
-  .why a{
-    color: rgb(250, 250, 250);
-    text-decoration: none;
-    outline: none;
-  }
-  .why a:hover{
-    color: #24ff00;
-    text-decoration: underline;
-  }
+  .zagolovok {
+      color: #fafafa;
+      text-align: center;
+      font-family: "Lobster";
+      font-size: 35px;
+      width: 30%;
+      margin-left: 450px;
+    }
+    .text {
+        color: #fafafa;
+        font-family: "Comfortaa";
+        font-size: 14px;
+        text-align: center;
+    }
+    .text span {
+        color: #24ff00;
+    }
   /* Main */
   
   /* footer */
@@ -389,8 +267,8 @@ body {
     display: flex;
     flex-direction: row;
     border-top: 2px solid #24ff00;
+    margin-top: 300px;
     padding-top: 10px;
-    margin-top: 1300px;
   }
   .razdelitel_two {
     margin: 10px;
